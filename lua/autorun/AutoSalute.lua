@@ -1,5 +1,8 @@
 hook.Add( "PlayerSay", "AutoSalute", function( ply, text, public )
 	text = string.lower( text ) 
+	
+	if ply:InVehicle() == true then return end
+
 	if ( text == "/me salutes." or text == "/me salutes" or text == "/me salute" or text == "/me salute." ) then
 		ply:DoAnimationEvent(ACT_GMOD_TAUNT_SALUTE) -- salute anim
 	end

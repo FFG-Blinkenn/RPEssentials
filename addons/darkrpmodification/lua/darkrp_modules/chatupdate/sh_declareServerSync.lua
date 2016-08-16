@@ -1,3 +1,6 @@
+--[[
+Change these all you want to have the "Message" to be anything you want.
+--]]
 local my_language = {
 
 	comms = "*COMMS*",
