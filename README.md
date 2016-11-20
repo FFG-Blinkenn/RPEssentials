@@ -11,6 +11,7 @@ An essential for any Casual/Serious-RP server: especially starwarsrp
 		* /me dances
 		* /me cheers
 		* /me laughs
+		* /me bows
 		
 ===
 **Feel free to request any features to the RPEssentials that is _deemed useful_**

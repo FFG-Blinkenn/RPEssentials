@@ -22,5 +22,8 @@ hook.Add( "PlayerSay", "AutoSalute", function( ply, text, public )
 	if ( text == "/me dances." or text == "/me dances" or text == "/me dance" or text == "/me dance." ) then
 		ply:DoAnimationEvent(ACT_GMOD_TAUNT_MUSCLE) -- dance anim
 	end
-		
+
+	if ( text == "/me bows." or text == "/me bows" or text == "/me bow" or text == "/me bow." ) then
+		ply:DoAnimationEvent(ACT_GMOD_GESTURE_BOW) -- bow
+	end
 end )
